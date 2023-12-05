@@ -27,7 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {
@@ -74,7 +75,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "BookInventorySystem",
         "USER": "postgres",
-        "PASSWORD": "",
+        "PASSWORD": "kA99am!ckey",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
